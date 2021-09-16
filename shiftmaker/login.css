@@ -1,0 +1,78 @@
+@charset 'UTF-8';
+body{
+    text-align: center;
+}
+
+
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #668ad8;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    border: solid 2px #668ad8;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .4s;
+    margin: 10px;
+}
+
+.btnD{
+    display: inline-block;
+    text-decoration: none;
+    color: #668ad8;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 30%;
+    border: solid 2px #668ad8;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .4s;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #b3e1ff;
+  }
+
+.btnD:hover {
+    background: #b3e1ff;
+  }
+
+  .pass5{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.pass5 span{
+    width: 100px;
+    height:50px;
+    border-bottom: 3px solid #b5b8ec;
+    font-size: 50px;
+    margin: 30px;
+    color:#b7b9c0f5;
+    opacity:0,1;
+}
+
+.nyuryoku{
+    padding: 0px ;
+    text-align: center;
+}
+
+.nyuryokuNum{
+    display: inline-block;
+    /* float:left; */
+    /* margin-left:270px; */
+}
+
+.delSend{
+    display: inline-block;
+    /* float:right; */
+    /* margin-right:233px; */
+}
